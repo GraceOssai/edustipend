@@ -11,3 +11,9 @@
     height: 100vh;
   }
 }
+
+@media(max-width:409px){
+  .App{
+    height: auto;
+  }
+}
