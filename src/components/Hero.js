@@ -1,5 +1,6 @@
 import React from "react";
 import "./styles/Hero.css";
+import SubHero from "./SubHero";
 
 const Hero = () => {
   return (
@@ -10,36 +11,7 @@ const Hero = () => {
           <p>Create your own custom playlist today.</p>
           <button className="hero-btn">Create playlist</button>
         </div>
-        <div className="hero-right">
-          <h3>Trending songs</h3>
-          <div className="playlist-container">
-            <div className="playlist">
-              <p>
-                Unavailable by <span>Davido</span> <button>&#43;</button>
-              </p>
-            </div>
-            <div className="playlist">
-              <p>
-                Unavailable by <span>Davido</span> <button>&#43;</button>
-              </p>
-            </div>
-            <div className="playlist">
-              <p>
-                Unavailable by <span>Davido</span> <button>&#43;</button>
-              </p>
-            </div>
-            <div className="playlist">
-              <p>
-                Unavailable by <span>Davido</span> <button>&#43;</button>
-              </p>
-            </div>
-            <div className="playlist">
-              <p>
-                Unavailable by <span>Davido</span> <button>&#43;</button>
-              </p>
-            </div>
-          </div>
-        </div>
+        <SubHero/>
       </div>
     </div>
   );

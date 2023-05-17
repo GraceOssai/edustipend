@@ -13,7 +13,8 @@ function App() {
           <Route path="/Contact" element={<Contact/>}></Route>
         </Routes>
       </BrowserRouter>
-      <Hero/>
+      <Hero 
+      />
     </div>
   );
 }
