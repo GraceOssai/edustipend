@@ -1,6 +1,13 @@
 .App{
   background-color: lightgray;
-  height: 80vh;
+  height: auto;
   width: 100%;
   font-family: 'Roboto', 'sans-serif';
+  padding-bottom: 20px;
+}
+
+@media(max-width:819px){
+  .App{
+    height: 100vh;
+  }
 }
